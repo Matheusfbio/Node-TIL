@@ -1,0 +1,18 @@
+### Variables
+@apiUrl = http://localhost:3001
+
+### 
+GET {{apiUrl}} HTTP/1.1
+content-type: application/json
+
+### Get users
+GET {{apiUrl}}/users HTTP/1.1
+content-type: application/json
+
+### Get users by id
+GET {{apiUrl}}/users/8356fe7c-caad-5791-8965-66fdbcfacf55 HTTP/1.1
+content-type: application/json
+
+### Delete users by id
+GET {{apiUrl}}/users/8356fe7c-caad-5791-8965-66fdbcfacf55 HTTP/1.1
+content-type: application/json
